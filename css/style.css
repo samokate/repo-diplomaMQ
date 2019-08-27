@@ -1,0 +1,399 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url('https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url('https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+/*      HEADER     */
+
+.header {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+
+  box-sizing: border-box;
+}
+
+.header::after {
+  content:"";
+  background-color: #0a0e34;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header-logo {
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.logo-img {
+    fill: #ffffff;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.2; 
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title-decoration {
+  display: block;
+}
+
+.button-text {
+  display: flex;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 50px;
+  background-color: #5e42b0;
+  text-align: left;
+  align-items: center;
+}
+
+/* .button-text apple::before {
+  background-image: url(https://github.com/samokate/Diploma-MQ-1/blob/master/svg/apple_logo_black.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+}
+
+.button-text google::before {
+  background-image: url(https://github.com/samokate/Diploma-MQ-1/blob/master/svg/google-play.svg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+} */
+
+.button-img {
+  fill: #ffffff;
+}
+
+
+
+/*      MAIN     */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  counter-reset: number;
+}
+
+.section-title {
+  color: #e7e7e7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.section-item:nth-of-type(1) {
+  background-color: #ffffff;
+}
+
+.section-item:nth-of-type(2) {
+  background-color: #f5f4f9;
+}
+
+.section-item:nth-of-type(3) {
+  background-color: #5e42b0;
+  color: #ffffff;
+}
+
+.section .section-background {
+  background-color: #0a0e34;
+
+}
+
+.section-img {
+  display: block;
+  min-height: 120px;
+}
+
+.item-title,.article-title {
+  color: #c1c1c1;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.article-title {
+  opacity: 0.4;
+}
+
+.item-title::before {
+  counter-increment: number;
+  content: "0" counter(number);
+  color: #000000;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 10px;
+  border-bottom: 4px solid #5e42b0;
+  position: relative;
+  top: -5px;
+}
+
+
+.growth_football::before {
+  border-bottom: 4px solid #ffffff;
+}
+
+.growth_basketball::before {
+  color: #8765dd;
+  border-bottom: 4px solid #ffffff;
+}
+
+.item-img {
+  width: 100%;
+  min-height: 120px;
+}
+
+.decoration {
+  font-weight: bold;
+  background-color: #5e42b0;
+  color: #ffffff;
+  margin-right: 10px;
+  position: relative;
+  top: -80px;
+}
+
+.decoration::after {
+  content: "";
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  opacity: 0.3;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+
+/*     FOOTER     */
+
+.footer {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+
+  box-sizing: border-box;
+  
+  height: 100%;
+  width: 100%;
+}
+
+.footer::after{
+  content:"";
+  background-color: #0a0e34;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo-img {
+  fill: #ffffff;
+  align-self: center;
+  background-image: linear-gradient(#7655d6, #51389c);
+}
+
+.footer-title {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.footer-subtitle {
+  color: #9b8ec1;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.footer-logo {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/*---------------STYLE FOR DESKTOP------------------*/
+
+@media (min-width: 961px) {
+
+  body {
+    font-size: 1rem;
+  }
+
+
+  /*     HEADER      */
+
+
+  .header {
+    background-image: url(../img/football_1920.jpg);
+
+    padding-top: 2%;
+    padding-bottom: 6%;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .logo-img {
+      height: 52px;
+      width: 190px;
+  }
+  
+  .title {
+    font-size: calc(2.7vw + 28px);
+    margin-top: 20%;
+  }
+
+  .title-decoration {
+    padding-left: 27%;
+    margin-bottom: 12%;
+    display: inline-block;
+  }
+
+  .button-text:nth-last-child(1) {
+    margin-left: 4%;
+  }
+
+  .apple {
+    height: 48px;
+    width: 48px;
+    margin-right: 15px;
+  }
+
+  .google {
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+  }
+
+  .buttons {
+    margin-top: 100px;
+  }
+
+  .button-text {
+    font-size: 14px;
+    padding: 25px;
+    width: 310px;
+    height: 75px;
+  }
+
+
+  /*     MAIN     */
+
+  .section {
+    position: relative;
+  }
+
+  .section-title {
+    font-size: 4.2vw;
+    margin-left: 53%;
+    margin-top: 3%;
+  }
+
+  .section-img {
+    position: absolute;
+    z-index: 5;
+  }
+
+  .football {
+    top: 26px;
+    right: 50%;
+    height: 810px;
+  }
+
+   h2.basketball {
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  .basketball {
+    left: 50%;
+    margin-top: 25px;
+    height: 900px;
+  }
+
+  .section-item {
+    padding: 52px 32px;
+  }
+
+  .section-item:nth-of-type(1) {
+    padding-top: 5%;
+  }
+  
+  .football~.section-item {
+    padding-left: 50%;
+    padding-right: 10%
+  }
+
+  .basketball~.section-item {
+    padding-left: 10%;
+    padding-right: 50%;
+  }
+
+  .item-title {
+    font-size: 1.5vw;
+  }
+
+  .section-text {
+    font-size: 1.25vw;
+  }
+
+  .item-title::before {
+    font-size: 0.87rem;
+  }
+
+  .article-item {
+    display: flex;
+    position: relative;
+    }
+
+  
