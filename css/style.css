@@ -40,7 +40,7 @@ body {
   bottom: 0;
 }
 
-.header-logo {
+.logo-block {
   display: block;
   position: relative;
   z-index: 2;
@@ -183,6 +183,7 @@ body {
 .swr-img {
   width: 100%;
   min-height: 120px;
+  vertical-align:bottom;
 }
 
 .decoration {
@@ -256,7 +257,7 @@ body {
   text-align: center;
 }
 
-.footer-logo {
+.logo-block {
     position: relative;
     z-index: 1;
     display: flex;
@@ -341,6 +342,7 @@ body {
     font-size: 4.2vw;
     margin-left: 53%;
     margin-top: 3%;
+    margin-bottom: 0;
   }
 
   .section-img {
@@ -360,7 +362,7 @@ body {
 
   .basketball {
     left: 50%;
-    margin-top: 25px;
+    top: 25px;
   }
 
   .section-item {
@@ -398,87 +400,6 @@ body {
     position: relative;
     }
 
-  .article-text {
-    width: 50%;
-    box-sizing: border-box;
-    margin: auto;
-    padding-left: 120px;
-    padding-right: 50px;
-  }
-
-  .find-contact .article-text {
-    padding-left: 50px;
-    padding-right: 120px;
-  }
-
-  .article-title {
-    font-size: 3rem;
-    opacity: 0.4;
-    margin-bottom: 6%;
-    margin-top: 20%;
-  }
-
-  .find-contact {
-    flex-direction: row-reverse;
-  }
-
-  .decoration {
-    font-size: 1.5rem;
-    padding: 60px 70px;
-    position: absolute;
-    left: calc(50% - 83.5px);
-    top: calc(50% - 77px)
-  }
-
-  .decoration::after {
-    width: 30px;
-    left: calc(50% - 15px);
-    top: calc(50% + 0.7em);
-  }
-
-  .footer {
-    background-image: url("../img/game_1920.jpg");
-
-    padding-top: 12%;
-    padding-bottom: 2%;
-  }
-
-  .footer-container {
-    flex-direction: row;
-  }
-
-  .footer-logo-img {
-    width: 130px;
-    height: 137px;
-    padding: 15px;
-    border-radius: 25px;
-    margin-right: 2%;
-    align-self: baseline;
-  }
-  
-  .footer-titles {
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20%;
-  }
-
-  .footer-title {
-    font-size: calc(2vw + 40px);
-    text-align: left;
-    margin: 0;
-  }
-  
-  .footer-subtitle {
-    font-size: 1.8rem;
-    margin: 0;
-    text-align: left;
-  }
-
-.logo-footer-down {
-  margin: 0 auto;
-  padding-top: 14%;
-  }
-}
 
 .article-text {
   width: 50%;
@@ -538,16 +459,16 @@ body {
   align-self: baseline;
 }
 
-.footer-titles {
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20%;
+footer .buttons {
+  margin-top: 135px;
+  margin-bottom: 255px;
 }
 
 .footer-title {
-  font-size: calc(2vw + 40px);
+  font-size: 5rem;
   text-align: left;
   margin: 0;
+  letter-spacing: 4px;
 }
 
 .footer-subtitle {
