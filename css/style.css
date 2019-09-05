@@ -85,6 +85,15 @@ body {
   align-items: center;
 }
 
+.button__label {
+font-weight: normal;
+}
+
+.button__label #decoration {
+  font-weight: bold;
+  display: block;
+}
+
 .button-img {
   fill: #ffffff;
 }
@@ -334,7 +343,7 @@ body {
     max-height: 46.87vw;
   }
 
-   h2.basketball {
+   .players {
     margin-left: 10%;
     margin-top: 3%;
   }
@@ -438,7 +447,7 @@ body {
   align-self: baseline;
 }
 
-footer .buttons {
+#footer-buttons  {
   margin-top: 135px;
   margin-bottom: 255px;
 }
@@ -524,7 +533,7 @@ footer .buttons {
     font-size: 10.41vw;
   }
 
-  h2.athlets {
+  .athlets {
     margin: 50px 0 0 36.45vw;
   }
 
@@ -555,7 +564,7 @@ footer .buttons {
     left:-150px;
   }
 
-  h2.basketball {
+  .players {
     margin: 50px 0 0 30px;
   }
 
@@ -618,7 +627,7 @@ footer .buttons {
     margin-bottom: 35%;
   }
 
-  footer .buttons {
+  #footer-buttons {
     margin-bottom: 65px;
   }
 
@@ -764,7 +773,7 @@ footer .buttons {
     padding-top: 50px;
   }
 
-  footer .buttons {
+  .buttons {
     margin-bottom: 75px;
   }
 
