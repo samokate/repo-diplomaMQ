@@ -280,7 +280,7 @@ font-weight: normal;
   }
   
   .title {
-    font-size: 4.68vw;
+    font-size: 90px;
     margin-top: 20%;
     letter-spacing: 3px;
   }
@@ -326,7 +326,7 @@ font-weight: normal;
   }
 
   .section-title {
-    font-size: 4.16vw;
+    font-size: 80px;
     margin-left: 53%;
     margin-top: 3%;
     margin-bottom: 0;
@@ -340,7 +340,7 @@ font-weight: normal;
   .football {
     top: 26px;
     right: 50%;
-    max-height: 46.87vw;
+    max-height: 975px;
   }
 
    .players {
@@ -351,7 +351,7 @@ font-weight: normal;
   .basketball {
     left: 46%;
     top: 5px;
-    max-height: 44.27vw;
+    max-height: 830px;
   }
 
   .section-item {
@@ -369,15 +369,15 @@ font-weight: normal;
   }
 
   .item-title {
-    font-size: 1.875vw;
+    font-size: 36px;
   }
 
   .section-text {
-    font-size: 1.041vw;
+    font-size: 20px;
   }
 
   .item-title::before {
-    font-size: 1.25vw;
+    font-size: 18px;
   }
 
   .section-with-rectangle {
@@ -403,7 +403,7 @@ font-weight: normal;
 }
 
 .article-title {
-  font-size: 4.16vw;
+  font-size: 65px;
   opacity: 0.4;
   margin-bottom: 6%;
   margin-top: 20%;
@@ -414,7 +414,7 @@ font-weight: normal;
 }
 
 .decoration {
-  font-size: 1.5rem;
+  font-size: 24px;
   padding: 60px 70px;
   position: absolute;
   left: calc(50% - 83.5px);
@@ -453,14 +453,14 @@ font-weight: normal;
 }
 
 .footer-title {
-  font-size: 5rem;
+  font-size: 65px;
   text-align: left;
   margin: 0;
   letter-spacing: 4px;
 }
 
 .footer-subtitle {
-  font-size: 1.8rem;
+  font-size: 30px;
   margin: 0;
   text-align: left;
 }
@@ -471,6 +471,8 @@ font-weight: normal;
 }
 
 }
+
+
 /*---------------STYLE FOR TABLET------------------*/
 
 @media (min-width: 641px) and (max-width: 959px) {
@@ -495,7 +497,7 @@ font-weight: normal;
   }
   
   .title {
-    font-size: 8.33vw;
+    font-size: 64px;
     margin-top: 20%;
     letter-spacing: 1px;
   }
@@ -528,7 +530,7 @@ font-weight: normal;
   }
 
   .section-title {
-    font-size: 10.41vw;
+    font-size: 80px;
   }
 
   .athlets {
@@ -544,7 +546,7 @@ font-weight: normal;
   }
 
   .article-title {
-    font-size: 10.41vw;
+    font-size: 80px;
     margin: 50px 0 0;
   }
 
@@ -553,7 +555,7 @@ font-weight: normal;
   }
 
   .article-text p {
-    font-size: 3.125vw;
+    font-size: 24px;
   }
 
   .football {
@@ -577,7 +579,7 @@ font-weight: normal;
   }
 
   .item-title{
-    font-size: 4.16vw;
+    font-size: 32px;
   }
 
   .item-title::before {
@@ -585,7 +587,7 @@ font-weight: normal;
   }
 
   .decoration {
-    font-size: 1.5rem;
+    font-size: 24px;
     padding: 50px;
     left: 40px;
     top: -50px; 
@@ -615,12 +617,12 @@ font-weight: normal;
   } 
 
   .footer-title {
-    font-size: 10.416vw;
+    font-size: 80px;
     margin: 0;
   }
   
   .footer-subtitle {
-    font-size: 4.68vw;
+    font-size: 36px;
     margin: 0;
     margin-bottom: 35%;
   }
@@ -662,7 +664,7 @@ font-weight: normal;
   }
 
   .title {
-    font-size: 1.75rem;
+    font-size: 28px;
     margin-top: 130px;
   }
 
@@ -672,7 +674,7 @@ font-weight: normal;
     margin-top: 20px;
   }
 
-  .titles, .buttons {
+  .titles {
     flex-wrap: wrap;
   }
 
@@ -685,11 +687,20 @@ font-weight: normal;
     height: 24px;
   }
 
+  .buttons {
+    display: block;
+  }
+
+  .buttons .container {
+    margin: 0 auto;
+  }
+
   .button-text {
     font-size: 8px;
     padding-left: 80px;
     border-radius: 25px;
     width: 280px;
+    margin: 0 auto;
   }
 
   .section-img {
@@ -706,17 +717,18 @@ font-weight: normal;
   }
 
   .section-title {
-    font-size: 3.12rem;
+    font-size: 50px;
     margin: 10px 20px;
 
   }
+  
 
   .item-title,.article-title {
-    font-size: 1.4rem;
+    font-size: 28px;
   }
 
   .item-title::before {
-    font-size: 0.87rem;
+    font-size: 14px;
   }
 
   .article-text {
@@ -724,7 +736,7 @@ font-weight: normal;
 }
   
   .decoration {
-    font-size: 0.87rem;
+    font-size: 14px;
     padding: 30px;
     top: -40px;
     left: 30px;
@@ -753,13 +765,13 @@ font-weight: normal;
   }
   
   .footer-title {
-    font-size: 2rem;
+    font-size: 32px;
     margin: 0;
     letter-spacing: 1px;
   }
   
   .footer-subtitle {
-    font-size: 0.87rem;
+    font-size: 14px;
     margin: 0;
     margin-bottom: 23%;
   }
