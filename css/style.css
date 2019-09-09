@@ -319,6 +319,10 @@ font-weight: normal;
     height: 75px;
   }
 
+  .button__label {
+    min-width: 140px;
+  }
+
 
   /*     MAIN     */
 
@@ -701,6 +705,10 @@ font-weight: normal;
     border-radius: 25px;
     width: 280px;
     margin: 0 auto;
+  }
+
+  .button__label {
+    min-width: 70px;
   }
 
   .section-img {
